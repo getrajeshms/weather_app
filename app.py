@@ -12,3 +12,4 @@ if response.status_code == 200:
     print(f"Temperature: {data['main']['temp']}°C")
 else:
     print("City not found.")
+print ("fetching weather data...")
